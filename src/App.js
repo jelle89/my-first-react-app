@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title'
 import LightSwitch from './components/LightSwitch'
 
-class App extends Component {
+class App extends React.Component {
+
   render() {
     return (
       <div className="App">
